@@ -1,10 +1,13 @@
 <template>
-  <h1>About Page</h1>
+  <div>
+    <p>オリジナル</p>
+    <nuxt/>
+  </div>
 </template>
 
 <script>
 export default {
-  layout: "original",
+
 }
 </script>
 
