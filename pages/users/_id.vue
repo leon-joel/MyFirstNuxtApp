@@ -26,7 +26,14 @@ export default {
     }
   },
 
+  // サーバー側とクライアント側で実行
+  created() {
+    console.log('created');
+    console.log(this.$route);
+  },
+  // クライアントだけで実行
   mounted() {
+    console.log('mounted');
     console.log(this.$route);
   }
 }
