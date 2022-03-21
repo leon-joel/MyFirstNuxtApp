@@ -28,7 +28,7 @@ export default {
   components: true,
 
   // SSR(universal) or SPA(spa) ※デフォルトは universal
-  // mode: 'universal',
+  // mode: 'spa',
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
