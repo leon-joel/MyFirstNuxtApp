@@ -8,7 +8,7 @@
       リンクをクリックする度にブラウザのリロードが行われページを構成するすべての情報をリロード毎に取得します。
       通常のHTMLページ間での移動と同じ動作になります。 -->
       <nuxt-link to="/">Home</nuxt-link>
-      <nuxt-link to="/about">About</nuxt-link>
+      <nuxt-link to="/about" no-prefetch>About</nuxt-link>
     </nav>
   </div>
 </template>
