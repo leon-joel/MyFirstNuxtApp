@@ -9,6 +9,7 @@
       通常のHTMLページ間での移動と同じ動作になります。 -->
       <nuxt-link to="/">Home</nuxt-link>
       <nuxt-link to="/about" no-prefetch>About</nuxt-link>
+      <nuxt-link :to="{ name: 'users-list'}" no-prefetch>UserList</nuxt-link>
     </nav>
   </div>
 </template>
